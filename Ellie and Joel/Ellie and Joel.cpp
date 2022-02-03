@@ -83,6 +83,8 @@ int main()
             cout << "\n Valid option!";
             exit(0);
         }
+        delete jl;
+        jl = NULL;
     } 
     system("pause");  
 }
